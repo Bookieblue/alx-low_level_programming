@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 /**
  * main -Entry point
  * Descriptions: program to print alphabet in lower case except from e and q
@@ -12,7 +11,7 @@ int main(void)
 
 	for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
 	{
-		if (lowerecase != 'q' && lowercase != 'e')
+		if (lowercase != 'q' && lowercase != 'e')
 		{
 			putchar(lowercase);
 		}

@@ -13,6 +13,6 @@ int main(void)
 	{
 		putchar((num % 10) + ',');
 	}
-	putchar('\n')
+	putchar('\n');
 		return (0);
 }

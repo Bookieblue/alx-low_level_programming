@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 /**
  * main - Enry point
  * Descriptions: print alphabet in lowercase and uppercase
@@ -8,7 +7,7 @@
  */
 int main(void)
 {
-	char lowereCase;
+	char lowerCase;
 
 	char upperCase;
 
@@ -16,7 +15,7 @@ int main(void)
 	{
 		putchar(lowerCase);
 	}
-	for (upperCase = 'A'; upperCase <= 'Z'; uppercase++)
+	for (upperCase = 'A'; upperCase <= 'Z'; upperCase++)
 	{
 		putchar(upperCase);
 	}

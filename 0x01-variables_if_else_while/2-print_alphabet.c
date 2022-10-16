@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.t>
 /**
  * main - Entry point
  * Descriptions: prints alphabets in lower case

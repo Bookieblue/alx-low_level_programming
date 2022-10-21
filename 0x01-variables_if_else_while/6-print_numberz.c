@@ -11,8 +11,8 @@ int main(void)
 
 	 for (numbers = 0; numbers <= 9; numbers++)
 	 {
-		 putchar((numbers % 10) + '0');
+		putchar((numbers % 10) + '0');
 	 }
 	 putchar('\n');
-		 return (0);
+         return (0);
 }

@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.>
+#include <stdio.h>
 /**
  * print_array - print numbers in Array
  * @a: array
